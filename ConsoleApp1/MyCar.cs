@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
+	// Car class with 10 properties
     class MyCar
     {
 		public string Maker { get; set; }

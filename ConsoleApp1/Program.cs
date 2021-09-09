@@ -8,6 +8,8 @@ namespace ConsoleApp1
 {
     class Program
     {
+        // Function for painting
+
         void Paint(int stars)
         {
             for (int i = stars; i > 0; i--)
@@ -85,6 +87,8 @@ namespace ConsoleApp1
                     Console.WriteLine("x > 5");
                     break;
             }
+
+            // Calling Paint function
 
             Program p1 = new Program();
             p1.Paint(20);
