@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
+    class User
+    {
+        public string Name { get; set; }
+    }
     class Program
     {
         // Function for painting
@@ -92,6 +96,27 @@ namespace ConsoleApp1
 
             Program p1 = new Program();
             p1.Paint(20);
+
+            // Integer types
+
+            byte b1 = 25;
+            sbyte b2 = 25;
+            // b2 = b1 as sbyte
+            Console.WriteLine(typeof(byte));
+            Object obj = new Object();
+            User u1 = new User();
+            obj = u1;
+            int i1 = b1; // implicit type casting
+            dynamic Data = 10;
+            Console.WriteLine(Data is string);
+            Data = "word"; // dynamic type
+            Console.WriteLine(Data is string);
+            Console.WriteLine(typeof(User));
+
+            var names = "Welcome";
+            var a = 34;
+            Console.WriteLine("name={0} a={1}", names, a);
+
         }
     }
 }
