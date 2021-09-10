@@ -29,8 +29,12 @@ namespace ConsoleApp1
 
 
         {
-            takeInputFromConsole();
-            ArrayDemo();
+            //takeInputFromConsole();
+           // ArrayDemo();
+
+            string = null;
+            int result;
+            bool ifSuccess = int.TryParse(ValueType, out result);
             // initializing variables
 
             int num = 100;

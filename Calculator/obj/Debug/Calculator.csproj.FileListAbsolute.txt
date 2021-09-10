@@ -4,3 +4,4 @@ C:\Users\ppaul\source\repos\Calculator\bin\Debug\Calculator.pdb
 C:\Users\ppaul\source\repos\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\ppaul\source\repos\Calculator\obj\Debug\Calculator.exe
 C:\Users\ppaul\source\repos\Calculator\obj\Debug\Calculator.pdb
+C:\Users\ppaul\source\repos\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
